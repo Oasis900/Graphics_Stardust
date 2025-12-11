@@ -1,0 +1,144 @@
+﻿{
+  "Scene": "Space",
+  "DefaultCamera": "StaticCamera",
+  "HardObjects":
+  [
+    {
+      "Name": "Cube",
+      "StartPosX": 0.0,
+      "StartPosY": 0.0,
+      "StartPosZ": 0.0
+    },
+    {
+      "Name": "Car.obj",
+      "Texture": "Car_SPEC.dds"
+    }
+  ],
+  "LoadedObjects":
+  [
+    {
+      "Name": "Sphere",
+      "Path": "Models/sphere.obj"
+    }
+  ],
+  "Materials":
+  [
+    {
+      "Name": "DefaultMaterial",
+      "diffuse_r": 0.949,
+      "diffuse_g": 0.776,
+      "diffuse_b": 0.345,
+      "diffuse_a": 1.0,
+      "ambient_r": 0.01,
+      "ambient_g": 0.01,
+      "ambient_b": 0.01,
+      "ambient_a": 0.01,
+      "specular_r": 1.0,
+      "specular_g": 1.0,
+      "specular_b": 1.0,
+      "specular_a": 10.0,
+      "specular_power": 15.0
+    }
+  ],
+  "Textures":
+  [
+    {
+      "Name": "CrateDiffuse",
+      "Path": "Textures/Crate_COLOR.dds"
+    },
+    {
+      "Name": "CrateSpecular",
+      "Path": "Textures/Crate_SPEC.dds"
+    },
+    {
+      "Name": "CrateNormal",
+      "Path": "Textures/Crate_NRM.dds"
+    }
+  ],
+  "Cameras": 
+  [
+    {
+      "Name": "StaticCamera",
+      "eye_x": 0.0,
+      "eye_y": 0.0,
+      "eye_z": -20.0,
+      "eye_w": 0.0,
+      "at_x": 0.0,
+      "at_y": 0.0,
+      "at_z": -1.0,
+      "at_w": 0.0,
+      "up_x": 0.0,
+      "up_y": 1.0,
+      "up_z": 0.0,
+      "up_w": 0.0,
+      "nearDepth": 0.01,
+      "farDepth": 1000.0
+    },
+    {"Name": "DebugCamera",
+      "eye_x": 0.0,
+      "eye_y": 0.0,
+      "eye_z": -20.0,
+      "eye_w": 0.0,
+      "at_x": 0.0,
+      "at_y": 0.0,
+      "at_z": -1.0,
+      "at_w": 0.0,
+      "up_x": 0.0,
+      "up_y": 1.0,
+      "up_z": 0.0,
+      "up_w": 0.0,
+      "nearDepth": 0.01,
+      "farDepth": 1000.0
+    }
+  ],
+  "DirectionalLight":
+  [
+    {
+      "Name": "Direct Sun",
+      "diffuse_r": 0.902,
+      "diffuse_g": 0.718,
+      "diffuse_b": 0.41,
+      "diffuse_a": 1.0,
+      "ambient_r": 0.01,
+      "ambient_g": 0.01,
+      "ambient_b": 0.01,
+      "ambient_a": 1.0,
+      "specular_r": 0.7,
+      "specular_g": 0.7,
+      "specular_b": 0.7,
+      "specular_a": 25.0,
+      "position_x": 0.0,
+      "position_y": 0.0,
+      "position_z": 0.0,
+      "attenuation_r": 0.0,
+      "attenuation_g": 0.0,
+      "attenuation_b": 0.4,
+      "range": 5.0
+    }
+  ],
+  "PointLight":
+  [
+    {
+      "Name": "Point Sun",
+      "diffuse_r": 0.902,
+      "diffuse_g": 0.718,
+      "diffuse_b": 0.41,
+      "diffuse_a": 1.0,
+      "ambient_r": 0.01,
+      "ambient_g": 0.01,
+      "ambient_b": 0.01,
+      "ambient_a": 1.0,
+      "specular_r": 0.7,
+      "specular_g": 0.7,
+      "specular_b": 0.7,
+      "specular_a": 25.0,
+      "position_x": 0.0,
+      "position_y": 0.0,
+      "position_z": 0.0,
+      "attenuation_r": 0.0,
+      "attenuation_g": 0.0,
+      "attenuation_b": 0.4,
+      "range": 5.0
+    }
+  ]
+}
