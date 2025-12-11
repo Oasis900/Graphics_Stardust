@@ -102,7 +102,7 @@ DX11Framework::~DX11Framework()
 
 HRESULT DX11Framework::CreateWindowHandle(const HINSTANCE h_instance, const int n_show_cmd)
 {
-    const wchar_t* windowName  = L"DX11Framework";
+    const wchar_t* windowName  = L"DX11Graphics";
 
     WNDCLASSW wndClass;
     wndClass.style = 0;
